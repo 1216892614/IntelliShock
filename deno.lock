@@ -1,0 +1,48 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@std/assert@1": "1.0.7",
+    "jsr:@std/internal@^1.0.5": "1.0.5",
+    "npm:newtype-ts@~0.3.5": "0.3.5_fp-ts@2.16.1_monocle-ts@2.3.13__fp-ts@2.16.1",
+    "npm:xstate@^5.18.2": "5.18.2"
+  },
+  "jsr": {
+    "@std/assert@1.0.7": {
+      "integrity": "64ce9fac879e0b9f3042a89b3c3f8ccfc9c984391af19e2087513a79d73e28c3",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/internal@1.0.5": {
+      "integrity": "54a546004f769c1ac9e025abd15a76b6671ddc9687e2313b67376125650dc7ba"
+    }
+  },
+  "npm": {
+    "fp-ts@2.16.1": {
+      "integrity": "sha512-by7U5W8dkIzcvDofUcO42yl9JbnHTEDBrzu3pt5fKT+Z4Oy85I21K80EYJYdjQGC2qum4Vo55Ag57iiIK4FYuA=="
+    },
+    "monocle-ts@2.3.13_fp-ts@2.16.1": {
+      "integrity": "sha512-D5Ygd3oulEoAm3KuGO0eeJIrhFf1jlQIoEVV2DYsZUMz42j4tGxgct97Aq68+F8w4w4geEnwFa8HayTS/7lpKQ==",
+      "dependencies": [
+        "fp-ts"
+      ]
+    },
+    "newtype-ts@0.3.5_fp-ts@2.16.1_monocle-ts@2.3.13__fp-ts@2.16.1": {
+      "integrity": "sha512-v83UEQMlVR75yf1OUdoSFssjitxzjZlqBAjiGQ4WJaML8Jdc68LJ+BaSAXUmKY4bNzp7hygkKLYTsDi14PxI2g==",
+      "dependencies": [
+        "fp-ts",
+        "monocle-ts"
+      ]
+    },
+    "xstate@5.18.2": {
+      "integrity": "sha512-hab5VOe29D0agy8/7dH1lGw+7kilRQyXwpaChoMu4fe6rDP+nsHYhDYKfS2O4iXE7myA98TW6qMEudj/8NXEkA=="
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/assert@1",
+      "npm:newtype-ts@~0.3.5",
+      "npm:xstate@^5.18.2"
+    ]
+  }
+}
